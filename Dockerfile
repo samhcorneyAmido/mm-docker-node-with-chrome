@@ -1,4 +1,4 @@
-FROM node:6.11
+FROM node:8
 
 #RUN cd /tmp && \
 #    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
