@@ -1,3 +1,5 @@
+FROM node:8
+
 RUN curl --location https://raw.github.com/creationix/nvm/master/install.sh | sh && \
     sudo /bin/bash -c "echo \"[[ -s \$HOME/.nvm/nvm.sh ]] && . \$HOME/.nvm/nvm.sh\" >> /etc/profile.d/npm.sh" && \
     echo "[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh" >> $HOME/.bashrc
